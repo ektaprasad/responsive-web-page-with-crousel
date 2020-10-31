@@ -1,0 +1,244 @@
+header,
+footer {
+    background-color: black;
+    width: 100%;
+
+}
+
+ul {
+    color: white;
+    text-decoration: none;
+}
+
+.jumbotron {
+    background-color: transparent !important;
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a.hover {
+    text-decoration: underline;
+}
+
+header a {
+    flex-wrap: nowrap;
+}
+
+@media only screen and (max-width:768px) {
+    width: 100%;
+}
+
+.navbar-nav>li {
+    display: inline-block;
+    padding: 20px;
+    font-family: '4font';
+}
+
+@font-face {
+    font-family: "1font";
+    src: url("fonts/BebasNeue-webfont.woff");
+}
+
+@font-face {
+    font-family: "2font";
+    src: url("fonts/fontawesome-webfont.woff");
+}
+
+@font-face {
+    font-family: "3font";
+    src: url("fonts/ufonts.com_gotham-bold-webfont.woff");
+}
+
+@font-face {
+    font-family: "4font";
+    src: url("fonts/ufonts.com_gotham-book-webfont.woff");
+}
+
+@font-face {
+    font-family: "5font";
+    src: url("fonts/ufonts.com_gotham-medium-webfont.woff");
+}
+
+.c1 {
+    background-color: black;
+
+    flex-wrap: nowrap;
+}
+
+.c2 {
+    background-color: white;
+
+}
+
+.c3 {
+    background-color: black;
+
+}
+
+.c4 {
+    background-color: white;
+
+}
+
+.wrapper {
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+.text1 {
+    font-family: '4font';
+    font-size: small;
+    color: white;
+}
+
+.text2 {
+    font-family: '4font';
+    font-size: large;
+    color: white;
+}
+
+.text3 {
+    font-family: '4font';
+    font-size: x-large;
+    color: blue;
+}
+
+.t4 {
+    font-family: '4font';
+    font-size: xx-large;
+    color: blue;
+}
+
+.box1 {
+    padding-left: 10%;
+    flex-wrap: nowrap;
+}
+
+.box2 {
+    padding-right: 10%;
+    flex-wrap: nowrap;
+}
+
+.t5 {
+    color: rgb(124, 193, 238);
+    font-size: larger;
+    font-family: '4font';
+}
+
+@media screen and (min-width: 601px) {
+    .wrapper {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        font-size: 15px;
+    }
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.carousel-caption {
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    color: white;
+}
+
+.carousel-item:hover .carousel-caption {
+    opacity: 1;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: white;
+}
+
+.img1 {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.img1:hover .image {
+    opacity: 0.3;
+
+}
+
+.img1:hover .middle {
+    opacity: 1;
+    background-color: rgb(105, 105, 240);
+    background-blend-mode: lighten;
+    filter: alpha(opacity=0.3);
+    opacity: 0.3;
+}
+
+.cen {
+    position: absolute;
+
+}
+.re
+{
+    position: relative;
+}
+.form-control {
+    display: block;
+  border: none;
+  border-radius: 0 !important;
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
+  border-bottom: 20px white;
+  
+}
+.form-control:focus{
+    background: transparent;
+}
+input {
+    border: 0;
+    outline: 0;
+    border-bottom:2px solid white;
+  }
+  input:focus {
+    border-color: grey
+  }
